@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-!x^%jo336f8c@bvrud1lyu=lni(b=-$t=aw#s4zkv)8tb(=81&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app']
+ALLOWED_HOSTS = ['*']
 
 LOGIN_URL = '/login/'
 LOGIN_REDIRECT_URL = '/'
@@ -43,7 +43,8 @@ INSTALLED_APPS = [
     'core',
     'item',
     'dashboard',
-    'conversation'
+    'conversation',
+    'storages'
 ]
 
 MIDDLEWARE = [
@@ -130,3 +131,15 @@ MEDIA_ROOT = BASE_DIR / 'media'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+AWS_ACCESS_KEY_ID = "AKIAUMN5DANERBKGV3UR"
+
+AWS_SECRET_ACCESS_KEY = "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"
+
+AWS_STORAGE_BUCKET_NAME = "rishi-mybucket"
+
+DEFAULT_FILE_STORAGE = "storages.backends.s3boto3.S3Boto3Storage"
+
+STATICFILES_STORAGE = "storages.backends.s3boto3.S3Boto3Storage"
+
+AWS_S3_CUSTOM_DOMAIN = '%s.s3.amazonaws.com' % AWS_STORAGE_BUCKET_NAME

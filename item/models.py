@@ -30,7 +30,7 @@ class Item(models.Model):
     price = models.FloatField()
 
     # An image field for uploading and storing item images.
-    image = models.ImageField(upload_to='item_images', blank=True, null=True)
+    image = models.ImageField(upload_to='item_images/', blank=True, null=True)
 
     # A boolean field to indicate whether the item has been sold or not.
     is_sold = models.BooleanField(default=False)
