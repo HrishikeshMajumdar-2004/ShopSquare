@@ -32,3 +32,8 @@ AuthenticationForm: This form is used for user login, with fields for username a
 If a user attempts to log in but does not have an account, they need to sign up first. Once signed in, users gain access to additional features such as a dashboard and inbox. They can also add new items to the marketplace.
 
 Users can sign out when they are done using the platform.
+
+https://github.com/HrishikeshMajumdar-2004/ShopSquare/assets/115341865/fea36091-f24f-44e8-b564-d9b174b7a45a
+
+
+
