@@ -20,3 +20,15 @@ The platform also displays related items from the same category as the current i
 ![Screenshot 2024-07-09 091558](https://github.com/HrishikeshMajumdar-2004/ShopSquare/assets/115341865/b5125667-c3aa-4475-9c47-a33a2b7d1c3d)
 
 ![Screenshot 2024-07-09 091615](https://github.com/HrishikeshMajumdar-2004/ShopSquare/assets/115341865/358c7664-2905-4fe1-9d6f-46566570aa6d)
+
+**SignUp and Login Page**
+
+After setting up forms for user registration by importing UserCreationForm and AuthenticationForm from django.contrib.auth, we manage the user verification process.
+
+UserCreationForm: This form allows users to create a new account. It includes fields such as username, email, password, and password confirmation.
+
+AuthenticationForm: This form is used for user login, with fields for username and password.
+
+If a user attempts to log in but does not have an account, they need to sign up first. Once signed in, users gain access to additional features such as a dashboard and inbox. They can also add new items to the marketplace.
+
+Users can sign out when they are done using the platform.
