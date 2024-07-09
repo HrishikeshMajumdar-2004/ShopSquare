@@ -35,5 +35,13 @@ Users can sign out when they are done using the platform.
 
 https://github.com/HrishikeshMajumdar-2004/ShopSquare/assets/115341865/fea36091-f24f-44e8-b564-d9b174b7a45a
 
+**Adding new Items**
+
+The Django setup enables authenticated users to create new items through a protected view function. It utilizes a specialized form, NewItemForm, designed with fields such as category, name, description, price, and image, each styled uniformly for presentation. Upon form submission, the function validates the input, assigns the current user as the creator of the item, and redirects to the item's detail view upon successful creation. For initial page loads, the function prepares an empty form instance for users to fill out and submit. Overall, the structure ensures secure item creation within the application while enforcing user authentication.
+
+Below is a demonstration of the logged-in user "User1" adding a new item to the website, which already contains some existing items :
+
+https://github.com/HrishikeshMajumdar-2004/ShopSquare/assets/115341865/925135d3-c85b-43c3-b0a5-27b2e96badc0
+
 
 
