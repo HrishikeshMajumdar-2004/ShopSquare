@@ -65,7 +65,13 @@ Users can search for available items in the market using two methods: they can e
 
 https://github.com/HrishikeshMajumdar-2004/ShopSquare/assets/115341865/d4ecd5b9-d667-4654-8b2a-a496d10ed191
 
+**Conversations**
 
+Logged-in users can engage in conversations with each other, particularly when showing interest in purchasing an item. Interested customers can contact sellers to express their interest in buying specific items. Users can check their inbox to see if they have any new messages. The website features an interactive user interface for facilitating conversations between buyers and sellers.
+
+Below is a demonstration of logged-in user "User1" sending a message to the seller of a product, "Rishi," who has received the message:
+
+https://github.com/HrishikeshMajumdar-2004/ShopSquare/assets/115341865/a35f9f60-9eeb-4e4c-b5f5-eebce084bae3
 
 
 
