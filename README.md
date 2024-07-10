@@ -51,4 +51,21 @@ Below is a demonstration of the signed-up user "Rishi" being able to see all the
 
 https://github.com/HrishikeshMajumdar-2004/ShopSquare/assets/115341865/3b8ed5da-6056-40cf-88a5-d85d65564b9a
 
+**Editing and Deleting an item**
+
+This website allows authenticated users to edit and delete details of items they own. It verifies user identity before retrieving and updating item information. When users submit changes through a form, such as editing details or deleting items, the website validates and processes the request accordingly. After editing or deleting an item, users are redirected to relevant pages for confirmation or further action. The form facilitates editing by providing fields for item name, description, price, and optional image upload, ensuring a streamlined and secure user experience for managing item information on the website.
+
+Below is a demonstration of how a logged-in user "User1" edits and deletes an item that they created on the website:
+
+https://github.com/HrishikeshMajumdar-2004/ShopSquare/assets/115341865/96675501-593f-4066-8a3d-3c993f9b01c8
+
+**Browsing items**
+
+Users can search for available items in the market using two methods: they can enter keywords into the search box to retrieve items that are not marked as sold, and they can filter items by categories. If a category ID is specified, the system filters items accordingly. Moreover, if users provide a search query, the system filters items by name or description containing the query. Additionally, users have the option to clear any applied filters. This functionality enhances the browsing experience by providing versatile ways to find specific items or explore different categories on the platform.
+
+https://github.com/HrishikeshMajumdar-2004/ShopSquare/assets/115341865/d4ecd5b9-d667-4654-8b2a-a496d10ed191
+
+
+
+
 
