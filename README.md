@@ -43,5 +43,12 @@ Below is a demonstration of the logged-in user "User1" adding a new item to the 
 
 https://github.com/HrishikeshMajumdar-2004/ShopSquare/assets/115341865/925135d3-c85b-43c3-b0a5-27b2e96badc0
 
+**Dashboard**
+
+A signed-in user can see all the items that they have created.
+
+Below is a demonstration of the signed-up user "Rishi" being able to see all the products he has created on the website among all the other items present:
+
+https://github.com/HrishikeshMajumdar-2004/ShopSquare/assets/115341865/3b8ed5da-6056-40cf-88a5-d85d65564b9a
 
 
