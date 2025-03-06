@@ -4,8 +4,6 @@ I've developed an advanced Online Marketplace Website with robust features for e
 
 Key features include a sophisticated user-to-user communication system that streamlines item purchasing, from discovery to transaction completion directly on the platform. Sellers benefit from a user-friendly dashboard with tools for managing product listings, including adding, editing, and deleting items, enhancing operational efficiency.
 
-Infrastructure-wise, the website utilizes AWS S3 buckets for scalable storage of static assets and media files, ensuring optimal performance and accessibility as the platform grows.
-
 Overall, this Online Marketplace Website offers a seamless browsing, purchasing, and selling experience, setting a high standard with its advanced functionalities.
 ![Screenshot 2024-07-09 085539](https://github.com/HrishikeshMajumdar-2004/ShopSquare/assets/115341865/89d3733e-e31d-4aa7-812b-399d0b1c006f)
 
